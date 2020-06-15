@@ -1,4 +1,4 @@
 # andoridQAGame
-Low technical works  
+Low technical work  
   
-If you can't understand the notes, you can use the translator.
+TIPS: If you can't understand the notes, you can use the translator.
