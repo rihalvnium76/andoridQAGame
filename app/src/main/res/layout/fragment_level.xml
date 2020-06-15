@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.level.LevelFragment">
+
+    <Button
+        android:id="@+id/btnLevel2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="关卡2：综合"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLevel1" />
+
+    <Button
+        android:id="@+id/btnLevel3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="关卡3：操作系统"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLevel2" />
+
+    <Button
+        android:id="@+id/btnLevel4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="关卡4：东方Project"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLevel3" />
+
+    <Button
+        android:id="@+id/btnLevel1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="关卡1：历史"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnLevel0"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="关卡0：测试关卡"
+        android:textColor="#33000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLevel4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
