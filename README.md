@@ -1,4 +1,4 @@
-# andoridQAGame
-Low-tech work
+# A simple Question&Answer game
+Low-tech work  
   
-TIPS: If you can't understand the notes, you can use the translator.
+Game language : zh_CN
